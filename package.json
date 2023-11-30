@@ -10,9 +10,6 @@
   },
   "type": "module",
   "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "build": "tsc --build",
     "format": "prettier --plugin-search-dir . --write . && prettier-package-json --write && eslint --fix .",
